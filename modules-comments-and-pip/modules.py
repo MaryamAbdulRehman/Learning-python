@@ -17,6 +17,4 @@ print(joke)
 
 
 '''We can use python as a calculator by typing python + enter on the terminal.This opens REPL (Read Evaluate Print Loop)
-REPL:e.g 8*3 ha iss ko pehly read kiya .phir evaluate kiya 24 bana aur phir 24 ko print kiya aur loop yaani ab dobaara
-sa hum number enter kar sakty hain 3+4 like iss tarah
 '''
