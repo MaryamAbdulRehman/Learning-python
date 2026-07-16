@@ -172,7 +172,7 @@ Agar hum asy karain k     introduce(name="maryam,age)   to iss ma error aye ga i
 '''
 
 
-# Argument(*args) and Keyword Argument(**kwrgs)
+# Argument(*args) and Keyword Argument(**kwargs)
 '''
 *args iss kii humy zarorat kyun ha?    Iss ma jo * ha ya python ko kah raha ha k jo bhi positional argument aye gii 
 uss ko aik container ma rakh loo.like: 10,20,30,40,43,54,23,67 aur ya container phr "tuple" ban jaata ha.phir for 
@@ -186,14 +186,13 @@ Rules:
 *args sirf positional arguments hii collect karta ha...e.g agar hum bolain k hum:add(a=1,v=34) to iss tarha karny sa error aye ga
 
 
-
-
 e.g: Agar asy hota ha function: 
   def greet(a,b)
   return a+b
 greet(10,20,30,40,50,60,70,80,90)  hum itni values nahii da sakty jitnii hum chahty hain
 
 iss k liye hum use karty hain   *args like: 
+
   def add(*numbers):
   total=0
   for n in numbers:
@@ -211,3 +210,45 @@ def add(*numbers):
 a=add(10,20,30,40,50,60,70,80,90)
 print(a)
 
+'''
+**kwargs (keyword arguments)
+e.g:pehly hum iss tarha karty thy
+def create_user(name,age,class):
+print(name,age,class)
+create_user("maryam,22,16)    .....Lakin agar humy future ma iss ka aur data chahiye
+ like email,contact to humy opar pehly define karna parray ga......iss kaam ko asaan 
+ karny k liye hum kwargs use karty hain
+
+ 
+ keyword argument jitny chahain utny da sakty hain aur ya as a dictionary store hoty hain
+
+ Rules:
+ Aur keyword argument keyword arguments hii collect karay ga...
+ e.g: def calculate(**amount)
+    print(amount)
+calculate(100)   ...Hum iss ko iss tarha nahii bhaj sakty agar humny opar double stearic use kiye hain to humy
+neechy keyword arguments deny parrain gy like: calculate(price=700,Rs=500,) Things like that
+ 
+ for example
+'''
+def create_user(**details):
+    print(details)
+
+create_user(name=["maryam","maria","mehmal"],age=[40,50,60],email=['maryam@gmail.com','maria@gmail.com','mehmal@gmail.com'])
+
+'''
+
+Summarize Function
+Difference b/w *args  and  **kwargs
+
+*args                                                   **kwargs
+Ya extra positional argument accept karta               Ya extra keyword argument collect karay ga
+As a tuple data store hoga                              Aur ya as a dictionary store hoga
+
+Normal parameters ----> Fixed Inputs
+*arguments(*args)-----> Unlimited but unnamed inputs(for loop)
+**keyword arguments---> Unlimited named inputs
+
+
+
+'''
