@@ -1,0 +1,21 @@
+Class:
+                    It is just a blueprint(naqsha)
+Object:
+                    Ya aik real instance hota ha jo hum class sa create karty hain
+                    Aur ya real Data hold karta ha
+__init__:
+                    Data store karny k liye ya special method use hota  aur iss ka
+                    matlab ha initialize the object
+                    init automatically runs ho jaata ha jab hum object create hota
+                    ha humy iss ko call karny kii zarorat ni parrti
+self:
+                    Iss ka matlab ha ma current object ko refer kar raha hoon
+Instance Variable:
+                    Instance variables are unique
+                    Ya shareable nahi hoty
+Class Variable: 
+                     Shared
+                     Sab use kar sakty hain
+Methods inside class:
+                     Ya object k khud k data pa operate karay gii
+ 
