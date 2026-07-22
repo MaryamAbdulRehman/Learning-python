@@ -52,3 +52,7 @@ Inheritance:
                         ya inheritance hota
 Example:
         Child inherits the properties of their parents
+
+Abstraction:
+                        Iss ma sirf important cheezon ko dekhaana aur most of the 
+                        cheezon ko hide karna
