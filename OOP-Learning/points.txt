@@ -45,3 +45,10 @@ example:
         Aik samsung ka phone ha wo different kaam kar ra pictures click kar sakty hain
         camera sa videos bana sakty hain game khel sakty call kar sakty hain.
         One thing shows behaviour of multiple things.
+Inheritance:
+                        When one class inherits some feature from another class this
+                        phenomenon is known as inheritance
+                        Yani jab aik class dosre class sa cheezain transfer kartii ha
+                        ya inheritance hota
+Example:
+        Child inherits the properties of their parents
