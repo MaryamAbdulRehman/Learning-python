@@ -27,4 +27,21 @@ Class Variable:
                      Sab use kar sakty hain
 Methods inside class:
                      Ya object k khud k data pa operate karay gii
- 
+
+
+Four pillars:
+Encapsulation:
+                     Data ko safe rakhny k liye use hota ha aur agar kisi chz ko hide
+                     karna ha 
+                     Aur data ko safe rakhna taaky bahir sa koi access na kar sakaay 
+ example:          
+         Yaani School ma wohi bacha parr sakta ha jo enrolled ha jo enroll nahi wo ni
+         parr sakta
+
+Polymorphism:
+                      Means having multiple forms.
+                      Matlab aik hii chz different different tasks perform kar rahii ha
+example:
+        Aik samsung ka phone ha wo different kaam kar ra pictures click kar sakty hain
+        camera sa videos bana sakty hain game khel sakty call kar sakty hain.
+        One thing shows behaviour of multiple things.
