@@ -1,8 +1,17 @@
+OOP:
+Make your code more reusable
+Easier to work with large programs
+OOP Programs prevent you from repeating code
+OOP provide us security
+
+
+
 Class:
-                    It is just a blueprint(naqsha)
+                    It is just a blueprint(Car)
 Object:
-                    Ya aik real instance hota ha jo hum class sa create karty hain
+                    Ya aik real instance hota ha jo hum class sa create karty hain yani class k bachy banaana
                     Aur ya real Data hold karta ha
+                    
 __init__:
                     Data store karny k liye ya special method use hota  aur iss ka
                     matlab ha initialize the object
