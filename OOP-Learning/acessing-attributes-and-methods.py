@@ -3,5 +3,5 @@ class car:
     def hello():   
         print("Maria")
 # We can access attributes and methods after accessing the class
-print(car.a)
-car.hello()
+print(car.a) #accessing attributes
+car.hello()  #accessing methods
