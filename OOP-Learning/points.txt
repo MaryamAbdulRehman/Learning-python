@@ -60,3 +60,4 @@ Abstraction:
 Class:   Blueprint ha attributes aur methods hoty hain iss ma...
 Attribute:A variable that is define inside the class called attributes(a=10)ya ha
 Method:Class sa bahir jaa k yaani indentation sa bahir def school(): to ya method ha
+
